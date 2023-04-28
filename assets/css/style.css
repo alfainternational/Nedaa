@@ -8,7 +8,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css?family='DroidArabicKufiRegular';:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800");
 
 :root {
   scroll-behavior: smooth;
@@ -415,7 +414,7 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #9725c5;
+  color: #333;
 }
 .hero h2 {
   color: #444444;
@@ -430,7 +429,7 @@ section {
   transition: 0.5s;
   color: #fff;
   background: #db1ecf;
-  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+  box-shadow: 0px 3px 5px -2px rgba(65, 84, 241, 0.4);
 }
 .hero .btn-get-started span {
   font-family: 'DroidArabicKufiRegular';
@@ -444,7 +443,7 @@ section {
   transition: 0.3s;
 }
 .hero .btn-get-started:hover i {
-  transform: translateX(5px);
+  transform: translateX(-6px);
 }
 .hero .hero-img {
   text-align: right;
@@ -576,7 +575,6 @@ section {
 .counts .count-box i {
   font-size: 42px;
   line-height: 0;
-  margin-right: 20px;
   color: #db1ecf;
 }
 .counts .count-box span {
@@ -910,33 +908,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# F.A.Q
---------------------------------------------------------------*/
-.faq .accordion-collapse {
-  border: 0;
-}
-.faq .accordion-button {
-  padding: 15px 15px 20px 0;
-  font-weight: 600;
-  border: 0;
-  font-size: 18px;
-  color: #444444;
-  text-align: left;
-}
-.faq .accordion-button:focus {
-  box-shadow: none;
-}
-.faq .accordion-button:not(.collapsed) {
-  background: none;
-  color: #db1ecf;
-  border-bottom: 0;
-}
-.faq .accordion-body {
-  padding: 0 0 25px 0;
-  border: 0;
-}
-
-/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio #portfolio-flters {
@@ -958,7 +929,7 @@ section {
   color: #ffffff;
   margin: 0 4px 8px 4px;
   transition: 0.3s;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   border: 1px solid #fff;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
